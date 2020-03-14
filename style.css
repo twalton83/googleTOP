@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#topHeaderRow{
+display: flex;
+margin-top: 1rem
+}
+#logo{
+    height: 3rem;
+    width: auto;
+}
+
+input[type= text]{
+width: 35rem;
+height: 2.75rem;
+border-radius: 30px;
+border: 1px solid lightgrey;
+margin-left: 1.5rem;
+padding-left: 1rem;
+}
+
+#bottomHeaderRow{
+    display: flex;
+    width: 39rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+    font-size: .85rem;
+}
+#bottomHeaderRow span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bottomHeaderRow span p{
+    padding-left: 1rem;
+}
+
+#results{
+    margin-left: 11rem;
+}
+
+.result {
+    
+}
+
+.urlDesc{
+    margin-bottom: .5rem
+}
+
+.resultLink{
+font-size: 1.2rem;
+}
+.resultDesc{
+    font-size: .9rem
+}
