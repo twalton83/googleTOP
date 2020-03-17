@@ -1,15 +1,20 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0
 }
 
 header{
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 1rem;
 }
 
 #topHeaderRow{
 display: flex;
-margin-top: 1rem
+
+margin-top: 1rem;
+
 }
 #logo{
     height: 3rem;
@@ -21,8 +26,9 @@ width: 35rem;
 height: 2.75rem;
 border-radius: 30px;
 border: 1px solid lightgrey;
-margin-left: 1.5rem;
+margin-left: 1rem;
 padding-left: 1rem;
+font-size: 1rem
 }
 
 #bottomHeaderRow{
@@ -45,6 +51,7 @@ padding-left: 1rem;
 
 #results{
     margin-left: 11rem;
+    width: 35rem;
 }
 
 .result {
@@ -52,12 +59,135 @@ padding-left: 1rem;
 }
 
 .urlDesc{
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    color: dimgrey;
+    font-size: .8rem;
+    
 }
 
 .resultLink{
 font-size: 1.2rem;
+line-height: 0;
+text-decoration: none;
 }
 .resultDesc{
+    font-size: .9rem;
+    margin-top: .5rem
+}
+
+#aboutResults {
+    color: grey;
     font-size: .9rem
+}
+
+#relatedSearches{
+    display:flex;
+    flex-direction: column;
+}
+
+#relatedSearchesList{
+    display: flex;
+   flex-flow: column wrap;
+   height: 4rem;
+   font-size: .9rem;
+  
+}
+
+#relatedSearches h2{
+    font-size: 1.2rem;
+    font-weight: 300
+}
+
+#relatedSearchesList a{
+    text-decoration: none;
+}
+
+#userSymbol{
+    height: 2rem;
+    width: 2rem;
+    margin-top: .5rem;
+    margin-left: 2rem
+}
+
+#apps{
+    height: 2rem; 
+    width:2rem;
+    margin-top: .5rem;
+    margin-left: 25rem
+   
+}
+
+#videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem
+}
+.videotab{
+    height: 18rem;
+    width: 13rem;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.videotab img{
+    height: 45%;
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.videotab a{
+text-decoration: none;
+
+}
+
+.videotab a {
+    margin: 1rem;
+}
+.videotab div{
+margin: 1rem
+}
+
+.author{
+    font-size: .8rem;
+    color: grey;
+    
+}
+
+.vidDesc {
+    font-size: .75rem;
+    color: grey;
+    line-height: 0;
+}
+
+.vidDesc span{
+    color: black;
+}
+footer{
+    background-color: #F2F2F2;
+}
+
+footer p {
+    margin-left: 11rem;
+    font-size: .9rem;
+   
+}
+
+footer a{
+    margin-left: 3rem;
+    font-size: .9rem;
+    text-decoration: none;
+    color: #7C8084
+}
+
+#footlinks{
+    margin-left: 8rem;
+}
+
+footer p span{
+    color: #7C8084
 }
